@@ -123,10 +123,44 @@ function Services() {
                        
 
                       
+                     
                    </div>
                </div>
                
            </div>
+
+           <section>
+                        <div className='up'>
+                            
+                            <div className='left-side'>
+                                <img src='../assets/girl.jpg' alt='placeholder-img'/>
+                            </div>
+                            <div className='right-side'>
+                                <div className='growth'>
+                                    <h2>Accelerate Business Growth To Improve Revenue Numbers</h2>
+                                    
+                                </div>
+
+                                <div className='help'>
+                                    <div className='inner'>
+                                        <div className="one"><p>1</p></div>
+                                        <div className="info"><h2>How can Aria Help Your Business</h2></div>
+                                    
+                                    </div>
+                                    
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div className='down'>
+                            <div className='down-left'>
+                                hello
+                            </div>
+                            <div className='down-right'>
+                                <img src='../assets/boy.jpg' alt='placeholder-img'/>
+                            </div>
+                        </div>
+                      </section>
         </div>
     )
 }

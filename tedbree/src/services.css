@@ -2,6 +2,7 @@
     background-color: #eeeef7;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 .services .card-container{
@@ -21,6 +22,10 @@
     
   
 }
+
+.services .card-container .item:hover {
+    transform: scale(1.07);
+  }
 
 .services .card-container .item .listings{
     width: 220px;
@@ -81,8 +86,10 @@
     padding: 10px 10px;
     background-color:#0ecea4;
     color: white;
+    font-weight: 800;
     outline: none;
     border: 0;
+    cursor: pointer;
 }
 
 .services .card-container .item .offers .last .price{
@@ -126,3 +133,89 @@
     color: #0ecea4;
     margin-top: 100px;
 }
+
+section .up{
+    display: flex;
+    
+}
+
+section .up .left-side img{
+    width: 165%;
+    height: 600px;
+    
+}
+
+section .up .right-side{
+    background-color: white;
+    width: 900px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
+}
+
+section .up .right-side .growth{
+    width: 400px;
+    margin-top: 30px;
+    
+}
+
+section .up .right-side .help{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+section .up .right-side .help .inner{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+section .up .right-side .help .inner .info{
+    margin-left: 20px;
+    
+}
+
+section .up .right-side .help .inner .one{
+    margin-top: 20px;
+    background-color: #0ecea4;
+    border-radius: 50%;
+    padding: 7px 5px;
+    width: 30px;
+    height: 30px;
+    
+}
+
+section .up .right-side .help .inner .one p{
+    color: white;
+    margin-top: 3px;
+    margin-left: 10px;
+    font-weight: 500;
+
+    
+}
+
+
+section .down{
+    display: flex;
+    
+}
+
+section .down .down-left{
+    background-color: white;
+    width: 669px;
+    height: 400px;
+  
+    
+}
+
+section .down .down-right img{
+    width: 130%;
+    height: 400px;
+  
+    
+}
+
