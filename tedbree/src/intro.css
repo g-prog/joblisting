@@ -1,0 +1,100 @@
+.intro {
+    background-color: #f9f9fa;
+   
+}
+
+.intro .container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    padding: 80px 50px;
+
+}
+
+.intro .bottom .cards .hexagon{
+    height: 0;
+    width: 25px;
+    border-top: 25px solid #0ecea4;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    position: relative;
+    margin-left: 10px;
+   
+
+     
+ }
+
+ .intro .bottom .cards .hexagon:before{
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 25px;
+    border-bottom: 25px solid #0ecea4;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    bottom: 25px;
+    left: -25px;
+     
+ }
+
+ 
+
+ .intro .bottom .cards .hexagon .icon{
+    color: white;
+    position: absolute;
+    top: -38px;
+    
+    
+     
+ }
+
+.intro .bottom{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 100px 50px;
+
+}
+
+.intro .bottom .cards{
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.intro .bottom .cards .text{
+    width: 250px;
+
+}
+
+.intro .bottom .cards .text p{
+    color: gray;
+    font-size: 13px;
+
+}
+
+.intro .left .heading{
+    width: 400px;
+}
+
+.intro .left .heading h5{
+    color: #0ecea4;
+    font-size: 12px;
+}
+
+.intro .left .heading p{
+    color: grey;
+   
+}
+
+.intro .left .heading .quote{
+    font-style: italic;
+}
+
+.intro .right .image-container img{
+    width: 650px;
+    height: 380px;
+}

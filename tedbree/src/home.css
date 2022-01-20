@@ -1,0 +1,143 @@
+.home {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.home .hero .img img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.home .hero .img {
+    position: relative !important;
+
+}
+
+.home .hero .content{
+    position: absolute !important;
+    top: 20px !important;
+    left: 50px !important;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.home .hero .content nav{
+   display: flex;
+   
+  
+  
+    
+}
+
+
+
+.home .hero .content .links ul li a{
+    color: white;
+    text-decoration: none;
+    
+   
+   
+     
+ }
+
+.home .hero .content nav .logo{
+    font-size: 24px;  
+}
+
+.home .hero .content .body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;   
+    margin-left: 60px;
+}
+
+.home .hero .content .body h1{
+    font-size: 50px;   
+}
+
+.home .hero .content .body button{
+    width: 140px;   
+    background-color: #0ecea4;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 800;
+}
+
+.home .hero .content .body .mission-statement{
+    text-align: center;  
+    width: 550px; 
+}
+
+
+
+.home .hero .content nav .links ul{
+    display: flex;
+     
+ }
+
+ .home .hero .content nav .links ul li{
+    list-style-type: none;
+    margin-right: 30px;
+    font-size: 13px;
+    margin-top: 5px;
+     
+ }
+
+ .home .hero .content nav .links .social{
+    display: flex;
+    margin-top: 30px;
+     
+ }
+
+ .home .hero .content nav .links .social .hexagon{
+    height: 0;
+    width: 20px;
+    border-top: 13px solid #0ecea4;
+    border-right: 13px solid transparent;
+    border-left: 13px solid transparent;
+    position: relative;
+    margin-left: 10px;
+   
+
+     
+ }
+
+ .home .hero .content nav .links .social .hexagon:before{
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 20px;
+    border-bottom: 13px solid #0ecea4;
+    border-right: 13px solid transparent;
+    border-left: 13px solid transparent;
+    bottom: 13px;
+    left: -13px;
+     
+ }
+
+ 
+
+ .home .hero .content nav .links .social .hexagon .icon{
+    color: white;
+    position: absolute;
+    top: -23px;
+    
+    
+     
+ }
+
+ .home .hero .content nav .links{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 30px;
+     
+ }

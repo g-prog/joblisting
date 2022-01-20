@@ -1,0 +1,128 @@
+.services{
+    background-color: #eeeef7;
+    display: flex;
+    flex-direction: column;
+}
+
+.services .card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px 60px;
+}
+
+.services .card-container .item{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    
+  
+}
+
+.services .card-container .item .listings{
+    width: 220px;
+    margin-left: 60px;
+    
+    
+    
+  
+}
+
+.services .card-container .item .listings h3{
+    text-align: center;
+    
+    
+    
+  
+}
+
+.services .card-container .item .offers .top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    margin-left: 50px;
+}
+
+.services .card-container .item .offers p{
+    color: gray;
+    font-size: 14px;
+}
+.services .card-container .item .offers .second li{
+    color: gray;
+    font-size: 14px;
+    list-style: none;
+}
+
+.services .card-container .item .offers .second li::before{
+    content:"o";
+    color: #0ecea4;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.services .card-container .item .offers .second{
+    margin-left: 50px;
+}
+
+.services .card-container .item .offers .last{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .card-container .item .offers .button button{
+    width: 100px;
+    padding: 10px 10px;
+    background-color:#0ecea4;
+    color: white;
+    outline: none;
+    border: 0;
+}
+
+.services .card-container .item .offers .last .price{
+    display: flex;
+}
+
+.services .card-container .item .offers .last .price p{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: 20px;
+    color:  #0ecea4;
+}
+
+.services .card-container .item .img-container img{
+    width: 350px;
+    height: 250px;
+    object-fit: fill;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+    
+}
+
+
+
+.services .title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services .title .package{
+    width: 500px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.services .title h5{
+    color: #0ecea4;
+    margin-top: 100px;
+}
