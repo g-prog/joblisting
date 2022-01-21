@@ -1,0 +1,40 @@
+.testimonials{
+    background-color: #f9f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonials .clients{
+    width: 550px;
+}
+
+.testimonials .clients p{
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+}
+
+.testimonials .carousel .test{
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials .carousel .test .img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.testimonials .carousel .test .words{
+    width: 300px;
+    margin-left: 530px;
+    margin-top: 10px;
+}
+
+.testimonials .carousel .test .words p{
+    font-size: 14px;
+    font-style: italic;
+    color: gray;
+}
