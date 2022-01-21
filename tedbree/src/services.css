@@ -168,6 +168,46 @@ section .up .right-side .help{
     
 }
 
+section .up .right-side .help .two{
+    display: flex;
+    margin-top: 15px;
+    
+}
+
+section .up .right-side .help .two .number{
+    margin-top: 20px;
+    border: 2px solid black;
+    padding: 5px 5px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    
+}
+
+section .up .right-side .help .two .number:hover{
+    background-color:#0ecea4 ;
+    border: transparent;
+    color: white;
+    
+    
+}
+
+section .up .right-side .help .two .number p{
+    margin-top: 5px;
+    margin-left: 8px;
+    font-weight: 600;
+
+    
+}
+
+section .up .right-side .help .two .letters{
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+
+
+
 section .up .right-side .help .inner{
     display: flex;
     justify-content: space-between;
@@ -176,6 +216,22 @@ section .up .right-side .help .inner{
 
 section .up .right-side .help .inner .info{
     margin-left: 20px;
+    
+}
+
+section .up .right-side .help .inner .info h2{
+    color: #0ecea4;
+    
+}
+
+section .up .right-side .help .inner .info .paragraph{
+    width: 350px;
+    
+}
+
+section .up .right-side .help .inner .info .paragraph p{
+    color: gray;
+    font-size: 13px;
     
 }
 
@@ -206,15 +262,169 @@ section .down{
 
 section .down .down-left{
     background-color: white;
-    width: 669px;
-    height: 400px;
+    width: 889px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   
     
 }
 
+section .down .down-left .development{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+section .down .down-left .development3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+section .down .down-left .development .speech{
+    margin-right: 180px;
+
+}
+
+section .down .down-left .development .speech2{
+    margin-right: 200px;
+
+}
+
+section .down .down-left .development3 .speech3{
+    margin-right: 220px;
+
+}
+
+
+
+
+
+
+
+section .down .down-left .development .percentage{
+    width: 400px;
+    height: 20px;
+    background-color: #0ecea4;
+    padding: 5px 5px;
+    border-radius: 2px;
+  
+    
+}
+
+section .down .down-left .development3 .percentage3{
+    width: 400px;
+    height: 20px;
+    background-color: #0ecea4;
+    padding: 5px 5px;
+    border-radius: 2px;
+  
+    
+}
+
+section .down .down-left .development .percentage2{
+    width: 250px;
+    height: 20px;
+    background-color: #0ecea4;
+    margin-right: 150px;
+    padding: 5px 5px;
+    border-radius: 2px;
+  
+    
+}
+
+section .down .down-left .development .percentage3{
+    width: 380px;
+    height: 20px;
+    background-color: #0ecea4;
+    margin-right: 50px;
+    padding: 5px 5px;
+    border-radius: 2px;
+  
+    
+}
+
+section .down .down-left .companies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    
+}
+
+section .down .down-left .companies .pitch2{
+    width: 350px;
+    margin-right: 70px;
+    margin-left: 30px;
+    
+}
+
+section .down .down-left .companies h3{
+    margin-right: 95px;
+    
+}
+
+section .down .down-left .companies .pitch2 p{
+    color: gray;
+    font-size: 15px;
+  
+    
+}
+
+section .down .down-left .companies .pitch2 a{
+    color: #0ecea4;
+    font-size: 15px;
+  
+    
+}
+
+section .down .down-left .upper{
+    display: flex;
+    justify-content: space-evenly;
+  
+    
+}
+section .down .down-left .business{
+    display: flex;
+    margin-right: 30px;
+  
+    
+}
+
+section .down .down-left .business .icon{
+    margin-top: 36px;
+  
+    
+}
+
+section .down .down-left .business .pitch{
+    margin-left: 6px;
+    margin-top: 8px;
+  
+    
+}
+
+section .down .down-left .business .pitch .tag{
+   color: #0ecea4;
+   font-size: 18px;
+   margin-top: 26px;
+  
+    
+}
+
+section .down .down-left .business .pitch h4{
+    color: gray;
+    font-size: 18px;
+    margin-top: 26px;
+   
+     
+ }
+
 section .down .down-right img{
     width: 130%;
-    height: 400px;
+    height: 600px;
   
     
 }
