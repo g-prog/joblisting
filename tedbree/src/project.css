@@ -1,4 +1,36 @@
-.project {
+.projects {
     background-color: #f9f9fa;
+    padding: 100px 60px;
+   
+}
+
+.projects ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.projects .project-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+.projects .project-images .pictures img {
+    width: 350px;
+    height: 350px;
+   
+}
+
+.projects .project-images .pictures{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
    
 }
