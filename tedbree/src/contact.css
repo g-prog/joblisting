@@ -1,0 +1,115 @@
+.contact{
+    background-color: rgb(15, 15, 80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 50px;
+}
+.contact .call .contact-form  form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .call .contact-form  form button{
+    width: 450px;
+    padding: 20px 50px;
+    background-color: #0ecea4;
+    color: white;
+    font-weight: 800;
+    outline: none;
+    border: 0;
+    margin-top: 30px;
+}
+
+.contact .call .contact-form  form .checkbox{
+    display: flex;
+    width: 500px;
+    color: white;
+}
+
+.contact .call .contact-form  form .checkbox input{
+    width: 20px;
+    height: 20px;
+    margin-top: 50px;
+}
+
+.contact .call .contact-form  form .checkbox p{
+    margin-top: 50px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.contact .call .contact-form  form .checkbox a{
+    color: white;
+}
+
+
+.contact .call .contact-form  form input{
+    margin-top: 30px;
+    width: 450px;
+    height: 50px;
+    background-color: rgb(123, 123, 173);
+    color: white;
+    outline: none;
+    border: 0;
+}
+
+.contact .call .contact-form  form select{
+    margin-top: 30px;
+    width: 450px;
+    height: 50px;
+    background-color: rgb(123, 123, 173);
+    color: white;
+    outline: none;
+    border: 0;
+}
+.contact .call{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+
+}
+
+.contact .call .contact-text{
+    display: flex;
+    flex-direction: column;
+}
+.contact .call .contact-text h5{
+    color: #0ecea4;
+}
+
+.contact .call .contact-text .filling{
+    width: 520px;
+}
+
+
+.contact .call .contact-text .filling h1{
+    color: white;
+}
+
+.contact .call .contact-text .few-steps{
+    width: 400px;
+}
+
+.contact .call .contact-text .few-steps p{
+    color: white;
+    font-size: 14px;
+}
+
+.contact .call .contact-text .bullets{
+    margin-left: 1px;
+}
+
+.contact .call .contact-text .bullets li{
+    color: white;
+    font-size: 14px;
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+.contact .call .contact-text .bullets li:before{
+    content: 'o';
+    color: #0ecea4;
+    margin-right: 10px;
+}

@@ -6,7 +6,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 
 function Home() {
     return (
-        <div className="home">
+        <div className="home" id="home">
             <div className="hero">
                 <div className="img">
                     <img src="../assets/tide.jpg" alt="" />
@@ -20,13 +20,13 @@ function Home() {
 
                     <div className="links">
                         <ul>
-                            <li>HOME</li>
+                            <li><a href="#home">HOME</a></li>
                             <li> <a href="#intro">INTRO</a></li>
                             <li> <a href="#services">SERVICES</a></li>
                             <li>CALL ME</li>
-                            <li>PROJECTS</li>
+                            <li><a href="#projects">PROJECTS</a></li>
                             <li>ABOUT</li>
-                            <li>CONTACT</li>
+                            <li><a href="#contact">CONTACT</a></li>
                         </ul>
 
                         <div className="social">
