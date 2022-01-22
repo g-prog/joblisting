@@ -23,10 +23,10 @@ function Home() {
                             <li><a href="#home">HOME</a></li>
                             <li> <a href="#intro">INTRO</a></li>
                             <li> <a href="#services">SERVICES</a></li>
-                            <li>CALL ME</li>
+                            <li><a href="#contact">CALL ME</a></li>
                             <li><a href="#projects">PROJECTS</a></li>
                             <li>ABOUT</li>
-                            <li><a href="#contact">CONTACT</a></li>
+                            <li><a href="#contact2">CONTACT</a></li>
                         </ul>
 
                         <div className="social">
