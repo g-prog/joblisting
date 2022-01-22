@@ -29,7 +29,11 @@ function Contact() {
                         <input type="text" placeholder='Name' />
                         <input type="tel" placeholder='Phone' />
                         <input type="email" placeholder='Email' />
-                        <select name="Interested in.." id="" placeholder='Name'></select>
+                        <select name="Interested in.." id="" >
+                            <option value="" disabled selected hidden>Interested in..</option>
+                            <option value="">Consultation</option>
+                            <option value="">Marketing</option>
+                        </select>
                         <div className="checkbox">
                             <input type="checkbox" />
                             <p>I agree with Aria's stated <a href="#intro">Privacy Policy</a> and <a href="#intro">Terms & Conditions</a></p>
