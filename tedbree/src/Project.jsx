@@ -2,7 +2,7 @@ import React from 'react'
 import { useState, useEffect } from "react";
 import './project.css'
 import Projectlist from './Projectlist'
-import { designproJect, featuredproJect } from './data'
+import { designproJect, featuredproJect, developmentproJect, marketingproJect, seoproJect } from './data'
 
 
 function Project() {
@@ -23,6 +23,24 @@ function Project() {
             
         },
 
+        {
+            id: "development",
+            title: "DEVELOPMENT",
+            
+        },
+
+        {
+            id: "marketing",
+            title: "MARKETING",
+            
+        },
+
+        {
+            id: "seo",
+            title: "SEO",
+            
+        },
+
         
 
         
@@ -40,6 +58,23 @@ function Project() {
 
                 
 
+                case "development":
+                    setData(developmentproJect);
+                    break;
+    
+                case "marketing":
+                    setData(marketingproJect);
+                    break;
+        
+    
+
+                case "seo":
+                    setData(seoproJect);
+                    break;
+            
+        
+    
+
                 default:
                     setData(featuredproJect);
 
@@ -49,6 +84,12 @@ function Project() {
     }, [selected])
     return (
         <div className='projects' id='projects'>
+            <div className="project-top">
+                <h5>PROJECTS</h5>
+                <h1>Projects That We're Proud Of</h1>
+
+            </div>
+            
             <ul>
                 {list.map(item=>(
                     <Projectlist title={item.title} active={selected === item.id} setSelected={setSelected}

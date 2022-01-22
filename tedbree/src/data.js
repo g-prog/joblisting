@@ -1,4 +1,113 @@
 export const featuredproJect = [
+
+
+    {
+        id: 1,
+        img: "../assets/teen.jpg"
+    },
+
+    {
+        id: 2, 
+        img: "../assets/boy.jpg"
+    },
+    {
+        id: 3,
+        img: "../assets/green.jpg"
+    },
+
+    {
+        id: 4, 
+        img: "../assets/bluering.jpg"
+    },
+
+    {
+        id: 5,
+        img: "../assets/shine.jpg"
+    },
+
+    {
+        id: 6, 
+        img: "../assets/cloudy.jpg"
+    },
+    {
+        id: 7, 
+        img: "../assets/Asian.jpg"
+    },
+    {
+        id: 8, 
+        img: "../assets/girl.jpg"
+    },
+
+    
+
+    
+
+
+   
+    
+
+
+    
+
+    
+
+    
+];
+
+
+export const designproJect = [
+    {
+        id: 1,
+        img: "../assets/red.jpg"
+    },
+
+    {
+        id: 2, 
+        img: "../assets/mac.jpg"
+    },
+    {
+        id: 3,
+        img: "../assets/natural.jpg"
+    },
+
+    {
+        id: 4, 
+        img: "../assets/pointer.jpg"
+    },
+
+    {
+        id: 5,
+        img: "../assets/server.jpg"
+    },
+
+    {
+        id: 6, 
+        img: "../assets/tide.jpg"
+    },
+    {
+        id: 7, 
+        img: "../assets/sea.jpg"
+    },
+    {
+        id: 8, 
+        img: "../assets/green.jpg"
+    },
+
+    
+
+    
+
+
+    
+
+    
+
+    
+];
+
+
+
+export const developmentproJect = [
     {
         id: 1,
         img: "../assets/Asian.jpg"
@@ -38,6 +147,54 @@ export const featuredproJect = [
 
     
 
+
+    
+
+    
+
+    
+];
+
+
+
+export const marketingproJect = [
+    {
+        id: 1,
+        img: "../assets/sea.jpg"
+    },
+
+    {
+        id: 2, 
+        img: "../assets/server.jpg"
+    },
+    {
+        id: 3,
+        img: "../assets/shine.jpg"
+    },
+
+    {
+        id: 4, 
+        img: "../assets/greenland.jpg"
+    },
+
+    {
+        id: 5,
+        img: "../assets/girl.jpg"
+    },
+
+    {
+        id: 6, 
+        img: "../assets/teen.jpg"
+    },
+    {
+        id: 7, 
+        img: "../assets/Asian.jpg"
+    },
+    {
+        id: 8, 
+        img: "../assets/boy.jpg"
+    },
+
     
 
 
@@ -49,52 +206,43 @@ export const featuredproJect = [
 ];
 
 
-export const designproJect = [
+export const seoproJect = [
     {
         id: 1,
-        img: "../assets/red.jpg"
+        img: "../assets/natural.jpg"
     },
 
     {
         id: 2, 
-        img: "../assets/star.jpg"
+        img: "../assets/mac.jpg"
     },
     {
         id: 3,
-        img: "../assets/star2.jpg"
+        img: "../assets/teen.jpg"
     },
 
     {
         id: 4, 
-        img: "../assets/shine.jpg"
+        img: "../assets/server.jpg"
     },
 
     {
         id: 5,
-        img: "../assets/greenland.jpg"
+        img: "../assets/cloudy.jpg"
     },
 
     {
         id: 6, 
-        img: "../assets/cloudy.jpg"
+        img: "../assets/pointer.jpg"
     },
     {
         id: 7, 
-        img: "../assets/girl.jpg"
+        img: "../assets/sea.jpg"
     },
     {
         id: 8, 
-        img: "../assets/blue.jpg"
+        img: "../assets/tide.jpg"
     },
-
-    
-
-    
-
-
-    
-
-    
 
     
 ];

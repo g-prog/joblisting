@@ -4,6 +4,19 @@
    
 }
 
+.projects  .project-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.projects  .project-top h5{
+    color: #0ecea4;
+   
+}
+
 .projects ul{
     display: flex;
     list-style-type: none;
