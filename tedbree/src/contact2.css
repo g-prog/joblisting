@@ -1,0 +1,154 @@
+.contact2{
+    background-color: #f9f9fa;
+    display: flex;
+    padding: 100px 50px;
+}
+
+.contact2 .contact2-form form{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.contact2 .contact2-form form input{
+    width: 500px;
+    height: 40px;
+    margin-top: 20px;
+    
+    
+}
+.contact2 .contact2-form form textarea{
+    width: 500px;
+    height: 200px;
+    margin-top: 20px;
+    
+    
+}
+
+.contact2 .contact2-form .check{
+    display: flex;
+    
+    
+}
+
+.contact2 .contact2-form .check input{
+ height: 25px;
+ width: 50px;
+    
+    
+}
+
+.contact2 .contact2-form .check p, a{
+    margin-top: 24px;
+    color: gray;
+       
+       
+}
+
+.contact2 .contact2-form{
+    margin-left: 300px;
+    
+    
+}
+.contact2 .central{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact2 .central .contact-info .office{
+    width: 350px;
+}
+.contact2 .central .contact-info .follow{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.contact2 .central .contact-info .follow h4{
+    margin-left: 5px;
+}
+
+.contact2 .central .contact-info .follow .all{
+    display: flex;
+    margin-top: 15px;
+}
+.contact2 .central .contact-info .follow .hexagon{
+    height: 0;
+    width: 20px;
+    border-top: 13px solid #0ecea4;
+    border-right: 13px solid transparent;
+    border-left: 13px solid transparent;
+    position: relative;
+    margin-left: 10px;
+}
+
+.contact2 .central .contact-info .follow .hexagon:before{
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 20px;
+    border-bottom: 13px solid #0ecea4;
+    border-right: 13px solid transparent;
+    border-left: 13px solid transparent;
+    bottom: 13px;
+    left: -13px;
+     
+}
+
+
+.contact2 .central .contact-info .follow .hexagon .icon{
+    color: white;
+    position: absolute;
+    top: -23px;
+     
+}
+
+.contact2 .central .contact-info .office p{
+    color: gray;
+    font-size: 13px;
+}
+.contact2 .central .contact-info .location {
+    display: flex;
+    flex-direction: column;
+}
+.contact2 .central .contact-info .location .address{
+    display: flex;
+}
+
+.contact2 .central .contact-info .location .address2{
+    display: flex;
+}
+
+.contact2 .central .contact-info .location .address2 .phone1{
+    display: flex;
+}
+
+.contact2 .central .contact-info .location .address2 .phone2{
+    display: flex;
+    margin-left: 20px;
+}
+
+.contact2 .central .contact-info .location .address2 .phone1 a{
+    color: gray;
+    font-size: 13px;
+    margin-left: 6px;
+    text-decoration: underline;
+    margin-top: 15px;
+}
+
+.contact2 .central .contact-info .location .address2 .phone2 a{
+    color: gray;
+    font-size: 13px;
+    margin-left: 6px;
+    text-decoration: underline;
+    margin-top: 15px;
+}
+
+.contact2 .central .contact-info .location .address p{
+    color: gray;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-left: 6px;
+}

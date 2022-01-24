@@ -6,6 +6,7 @@ import Contact from './Contact';
 import Project from './Project';
 import Consultants from './Consultants';
 import About from './About';
+import Contact2 from './Contact2';
 import "./App.css"
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Project/>
         <Consultants/>
         <About/>
+        <Contact2/>
        
 
       </div>
