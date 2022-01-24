@@ -14,4 +14,6 @@
 .Projectlist.active{
    background-color: #0ecea4;
    padding: 8px 20px;
+   color: white;
+   font-weight: 600;
 }

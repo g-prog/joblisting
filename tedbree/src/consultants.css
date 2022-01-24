@@ -1,0 +1,49 @@
+.consultants  .hexagon{
+    height: 0;
+    width: 100px;
+    border-top: 100px solid #0ecea4;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+    position: relative;
+    margin-left: 10px;
+    
+   
+
+     
+ }
+
+
+ .consultants .hexagon:before{
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 100px;
+    border-bottom: 100px solid #0ecea4;
+    border-right: 100px solid transparent;
+    border-left: 100px solid transparent;
+    bottom: 100px;
+    left: -100px;
+
+     
+ }
+
+
+ .consultants .hexagon .icon{
+    color: white;
+    position: absolute;
+    top: -150px;
+    
+    
+     
+ }
+
+ .consultants .hexagon .icon img{
+    width: 150px;
+    height: 150px;
+   
+    
+    
+     
+}
+
+
