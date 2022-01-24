@@ -5,6 +5,7 @@ import Testimonials from './Testimonials';
 import Contact from './Contact';
 import Project from './Project';
 import Consultants from './Consultants';
+import About from './About';
 import "./App.css"
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Contact/>
         <Project/>
         <Consultants/>
+        <About/>
        
 
       </div>

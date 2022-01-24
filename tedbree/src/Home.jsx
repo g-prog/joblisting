@@ -25,7 +25,7 @@ function Home() {
                             <li> <a href="#services">SERVICES</a></li>
                             <li><a href="#contact">CALL ME</a></li>
                             <li><a href="#projects">PROJECTS</a></li>
-                            <li>ABOUT</li>
+                            <li><a href="#about">ABOUT</a></li>
                             <li><a href="#contact2">CONTACT</a></li>
                         </ul>
 

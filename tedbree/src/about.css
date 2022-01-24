@@ -1,0 +1,65 @@
+.about{
+    background-color: white;
+    padding: 100px 50px;
+  
+}
+
+.about .about-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about .about-section .about-left img{
+    width: 480px;
+    height: 300px;
+}
+
+.about .about-section .about-right{
+    width: 450px;
+}
+
+.about .about-section .about-right h5{
+    color: #0ecea4;
+}
+
+.about .about-section .about-right .about-text p{
+    color: gray;
+    font-size: 16px;
+}
+
+.about .about-section .about-right .about-text .about-list li{
+    color: gray;
+    font-size: 16px;
+    list-style-type: none;
+}
+
+.about .about-section .about-right .about-text .about-list li:before{
+    content: 'o';
+    color: #0ecea4;
+    margin-right: 6px;
+}
+
+
+.about .about-section .about-right .stats {
+    display: flex;
+}
+
+.about .about-section .about-right .stats .about-stats{
+    display: flex;
+    margin-left: 10px;
+}
+
+.about .about-section .about-right .stats .about-stats .stat-left h1{
+    color: #0ecea4;
+}
+
+.about .about-section .about-right .stats .about-stats .stat-right{
+    width: 50px;
+}
+
+.about .about-section .about-right .stats .about-stats .stat-right p{
+    font-size: 13px;
+    margin-top: 25px;
+    margin-left: 5px;
+}
