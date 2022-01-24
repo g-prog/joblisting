@@ -11,6 +11,18 @@
     
 }
 
+.contact2 .contact2-form form button{
+    color: white;
+    font-weight: 700;
+    width: 500px;
+    outline: none;
+    border: 0;
+    padding: 20px 50px;
+    background-color: #0ecea4;
+    
+    
+}
+
 .contact2 .contact2-form form input{
     width: 500px;
     height: 40px;

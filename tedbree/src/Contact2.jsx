@@ -114,6 +114,7 @@ export default function Contact2() {
                     <p>I agree with Aria's stated <a href="#intro">Privacy Policy</a> and <a href="#intro">Terms & Conditions</a></p>
 
                  </div>
+                 <button>SUBMIT MESSAGE</button>
                 
              </form>
 
