@@ -1,49 +1,167 @@
-.consultants  .hexagon{
+.consultants {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     
+}
+
+.consultants .top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     
+}
+
+.consultants .top .knowledge{
+    width: 550px;
+    text-align: center;
+     
+}
+
+.consultants .top .knowledge p{
+    color: gray;
+    font-size: 14px;
+}
+.consultants  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+    flex-wrap: wrap;  
+}
+
+.consultants  .container .hexagon{
+    position: relative; 
+    width: 350px;
+    height: 400px;
+    margin: 50px 20px 70px;
+
+}
+
+.consultants  .container .hexagon .worker-info{
+    top: 400px;
+    left: 140px;
+    position: absolute;
+
+}
+
+.consultants  .container .hexagon .worker-info h5{
+    color: gray;
+    margin-left: 10px;
+
+}
+
+.consultants  .container .hexagon .worker-info1 h5{
+    color: gray;
+    margin-left: 10px;
+
+}
+
+.consultants  .container .hexagon .worker-info1{
+    top: 400px;
+    left: 100px;
+    position: absolute;
+
+}
+
+.consultants  .container .hexagon .worker-info .overall{
+    display: flex;
+
+}
+.consultants  .container .hexagon .worker-info1 .overall{
+    display: flex;
+
+}
+
+.consultants  .container .hexagon .worker-info .hexagon-bottom{
     height: 0;
-    width: 100px;
-    border-top: 100px solid #0ecea4;
-    border-right: 100px solid transparent;
-    border-left: 100px solid transparent;
+    width: 20px;
+    border-top: 13px solid #0ecea4;
+    border-right: 13px solid transparent;
+    border-left: 13px solid transparent;
     position: relative;
     margin-left: 10px;
-    
-   
+    display: flex;
 
-     
- }
+}
+.consultants  .container .hexagon .worker-info1 .hexagon-bottom{
+    height: 0;
+    width: 20px;
+    border-top: 13px solid #0ecea4;
+    border-right: 13px solid transparent;
+    border-left: 13px solid transparent;
+    position: relative;
+    margin-left: 10px;
+    display: flex;
 
+}
 
- .consultants .hexagon:before{
+.consultants  .container .hexagon .worker-info .hexagon-bottom:before{
     position: absolute;
     content: '';
     height: 0;
-    width: 100px;
-    border-bottom: 100px solid #0ecea4;
-    border-right: 100px solid transparent;
-    border-left: 100px solid transparent;
-    bottom: 100px;
-    left: -100px;
+    width: 20px;
+    border-bottom: 13px solid #0ecea4;
+    border-right: 13px solid transparent;
+    border-left: 13px solid transparent;
+    bottom: 13px;
+    left: -13px;
 
-     
- }
+}
+.consultants  .container .hexagon .worker-info1 .hexagon-bottom:before{
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 20px;
+    border-bottom: 13px solid #0ecea4;
+    border-right: 13px solid transparent;
+    border-left: 13px solid transparent;
+    bottom: 13px;
+    left: -13px;
 
+}
 
- .consultants .hexagon .icon{
+.consultants  .container .hexagon .worker-info .hexagon-bottom .icon{
     color: white;
     position: absolute;
-    top: -150px;
+    top: -23px;
+    display: flex;
     
+
+}
+
+.consultants  .container .hexagon .worker-info1 .hexagon-bottom .icon{
+    color: white;
+    position: absolute;
+    top: -23px;
+    display: flex;
     
-     
+
+}
+
+
+
+
+.consultants  .container .hexagon .shape{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: black;
+   clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+}
+
+.consultants  .container .hexagon .shape img{
+    width: 350px;
+    height: 400px;
+    
  }
 
- .consultants .hexagon .icon img{
-    width: 150px;
-    height: 150px;
-   
-    
-    
-     
-}
+ 
+
+
 
 
