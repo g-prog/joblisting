@@ -72,6 +72,10 @@
 .contact2 .central .contact-info .office{
     width: 350px;
 }
+
+.contact2 .central .contact-info h5{
+    color: #0ecea4;
+}
 .contact2 .central .contact-info .follow{
     display: flex;
     margin-top: 50px;
@@ -79,7 +83,7 @@
 }
 
 .contact2 .central .contact-info .follow h4{
-    margin-left: 5px;
+    margin-left: 15px;
 }
 
 .contact2 .central .contact-info .follow .all{
