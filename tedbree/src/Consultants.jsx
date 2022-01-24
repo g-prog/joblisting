@@ -10,7 +10,7 @@ function Consultants() {
                 <h2>Our Team Of Consultants</h2>
                 <div className="knowledge">
                     <p>We're only as strong and knowledgeable as our team. So here
-                        are the men and womenwho help customers meet their goals and grow their companies.
+                        are the men and women who help customers meet their goals and grow their companies.
                     </p>
                 </div>
             </div>
@@ -21,8 +21,8 @@ function Consultants() {
 
                     </div>
                     <div className="worker-info1">
-                        <h5>John Whitely</h5>
-                        <h4>General Manager</h4>
+                        <h5>Veronique Smith</h5>
+                        <h4>Online Marketer</h4>
                         <div className="overall">
                             <div className="hexagon-bottom">
                             <div className="icon">
@@ -48,7 +48,7 @@ function Consultants() {
                     </div>
                     <div className="worker-info">
                         <h5>John Whitely</h5>
-                        <h4>General Manager</h4>
+                        <h4>Business Developer</h4>
                         <div className="overall">
                             <div className="hexagon-bottom">
                             <div className="icon">
@@ -73,7 +73,7 @@ function Consultants() {
 
                     </div>
                     <div className="worker-info">
-                        <h5>John Whitely</h5>
+                        <h5>Jack Zimmerman</h5>
                         <h4>General Manager</h4>
                         <div className="overall">
                             <div className="hexagon-bottom">
