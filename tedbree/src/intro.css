@@ -98,3 +98,134 @@
     width: 650px;
     height: 380px;
 }
+
+
+@media only screen and (max-width: 600px){
+    .intro .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        padding: 20px 50px !important;
+    
+    }
+
+    .intro .left {
+        margin-left: 50px;
+        
+    }
+
+    .intro .left .heading h1,h4{
+        font-size: 11px;
+        
+    }
+
+    .intro .left .heading p{
+        font-size: 9px;
+        
+    }
+
+    .intro .right .image-container{
+        margin-top: 20px;
+    }
+
+
+    .intro .right .image-container img{
+        width: 400px !important;
+        height: 200px;
+    }
+
+    .intro .bottom{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5px;
+        padding: 10px 10px;
+    
+    }
+
+    .intro .bottom .cards .text{
+        width: 150px;
+    
+    }
+
+    .intro .bottom .cards{
+        margin-top: 30px;
+    
+    
+    
+    }
+
+
+
+    
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 768px){
+    .intro .container{
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        padding: 80px 50px;
+    
+    }
+
+    .intro .bottom .cards .text p{
+        color: gray;
+        font-size: 9px;
+    
+    }
+
+    .intro .bottom .cards .text h3{
+        font-size: 10px;
+    
+    }
+
+    .intro .bottom .cards .text{
+        width: 150px;
+    
+    }
+
+
+    .intro .left .heading h1,h4{
+        font-size: 11px;
+        
+    }
+
+    .intro .left .heading p{
+        font-size: 9px;
+        
+    }
+
+    .intro .right .image-container img{
+        width: 250px;
+        height: 180px;
+    }
+
+    .intro .bottom{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+        padding: 10px 10px;
+    
+    }
+
+    .intro .bottom .cards{
+        margin-top: 30px;
+        margin-left: 60px;
+    
+    
+    
+    }
+
+
+
+
+    
+    
+}

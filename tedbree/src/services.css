@@ -431,3 +431,81 @@ section .down .down-right img{
     
 }
 
+
+
+@media only screen and (max-width: 600px){
+    .services .card-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 60px 60px;
+    }
+
+
+    .services .title .package{
+        width: 200px;
+        margin-left: 30px;
+        text-align: center;
+    }
+
+
+    .services .title .package h2{
+        font-size: 15px;
+    }
+
+
+    .services .card-container .item{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 520px;
+        background-color: white;
+        border-radius: 20px;
+        margin-top: 90px;
+        
+      
+    }
+
+    .services .card-container .item h3{
+        font-size: 10px;
+        
+      
+    }
+
+    .services .card-container .item button{
+        font-size: 10px;
+        
+      
+    }
+
+    .services .card-container .item p,li{
+        font-size: 11px !important;
+        
+      
+    }
+
+
+    .services .card-container .item .offers .last .price p{
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: 800;
+        margin-top: 23px;
+        color:  #0ecea4;
+    }
+
+    .services .card-container .item .offers .last .price h5{
+        font-size: 13px;
+
+    }
+    
+    
+
+    
+
+    
+    
+    
+}
+
+
