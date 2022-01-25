@@ -27,6 +27,7 @@
     width: 500px;
     height: 40px;
     margin-top: 20px;
+    outline: none;
     
     
 }
@@ -34,6 +35,7 @@
     width: 500px;
     height: 200px;
     margin-top: 20px;
+    outline: none;
     
     
 }

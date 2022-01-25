@@ -1,0 +1,47 @@
+.footer{
+    background-color: rgb(15, 15, 80);
+    color: white;
+    padding: 70px 40px;
+}
+
+.footer .copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    font-size: 13px;
+}
+
+
+.footer .all-footer{
+    background-color: rgb(15, 15, 80);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer .footer-left .Aria-words{
+    width: 480px;
+}
+
+.footer .footer-left .Aria-words p{
+    font-size: 13px;
+}
+
+.footer .footer-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer .footer-right .links{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.footer .footer-right .links a{
+    color: white;
+    font-size: 13px;
+}

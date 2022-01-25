@@ -7,6 +7,7 @@ import Project from './Project';
 import Consultants from './Consultants';
 import About from './About';
 import Contact2 from './Contact2';
+import Footer from './Footer';
 import "./App.css"
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Consultants/>
         <About/>
         <Contact2/>
+        <Footer/>
        
 
       </div>
