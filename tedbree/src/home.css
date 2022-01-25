@@ -145,15 +145,14 @@
 
 @media only screen and (max-width: 600px){
     .home .hero .img img{
-        width: 100vh;
-        height: 100vw;
+        width: 300vh;
+        height: 300vw;
     
     }
 
     .home .hero {
-        width: 100vh;
-        height: 100vw;
-        background-color: blue;
+        width: 300vh;
+        height: 300vw;
         
     
     }
@@ -171,7 +170,7 @@
 
     .home .hero .content{
         
-        top: 20px !important;
+        top: 2px !important;
         left: 30px !important;
         color: white;
         
