@@ -171,7 +171,7 @@
     .home .hero .content{
         
         top: 2px !important;
-        left: 5px !important;
+        left: 1px !important;
         color: white;
         
         
@@ -192,14 +192,16 @@
     }
 
     .home .hero .content .body button{
-        font-size: 5px;
+        font-size: 8px;
+        margin-top: 20px;
 
 
     }
 
     .home .hero .content .body .mission-statement{
-        width: 290px;
+        width: 320px;
         margin-left: 30px;
+        margin-top: 20px;
 
     }
 
