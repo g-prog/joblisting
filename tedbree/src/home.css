@@ -140,4 +140,73 @@
     margin-left: 400px;
     margin-top: 30px;
      
- }
+}
+
+
+@media only screen and (max-width: 600px){
+    .home .hero .img img{
+        width: 100vh;
+        height: 100vw;
+    
+    }
+
+    .home .hero {
+        width: 100vh;
+        height: 100vw;
+        background-color: blue;
+        
+    
+    }
+
+    .home .hero .content nav .logo{
+        font-size: 14px;  
+    }
+
+
+    .home {
+        height: auto;
+        
+    }
+
+
+    .home .hero .content{
+        
+        top: 20px !important;
+        left: 30px !important;
+        color: white;
+        
+        
+    }
+
+    .home .hero .content .body{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 150px;
+
+    }
+
+
+    .home .hero .content .body h1{
+        font-size: 13px;
+
+    }
+
+    .home .hero .content .body button{
+        font-size: 5px;
+
+
+    }
+
+    .home .hero .content .body .mission-statement{
+        width: 290px;
+        margin-left: 30px;
+
+    }
+
+    .home .hero .content .body .mission-statement p{
+        font-size: 10px;
+
+    }
+    
+}
