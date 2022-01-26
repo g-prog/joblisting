@@ -51,8 +51,8 @@
 
 @media only screen and (max-width: 600px){
     .projects .project-images .pictures img {
-        width: 60px;
-        height: 80px;
+        width: 120px;
+        height: 140px;
        
     }
 
