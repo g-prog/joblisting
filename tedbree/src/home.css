@@ -163,10 +163,13 @@
     
     }
 
-    .home .hero .content nav .logo{
-        font-size: 14px; 
+    .home .hero .content nav .logo{ 
         margin-left: 3px; 
         margin-top: 2px;
+    }
+
+    .home .hero .content nav .logo h4{
+        font-size: 17px  !important; 
     }
 
 
@@ -195,7 +198,7 @@
 
     .home .hero .content nav .hamburger{
         display: block;
-        margin-top: 45px;
+        margin-top: 60px;
         margin-left: 300px;
         position: relative;
          
