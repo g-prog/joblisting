@@ -159,7 +159,63 @@
     width: 350px;
     height: 400px;
     
- }
+ 
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .consultants .top h2{
+        font-size: 15px;
+         
+    }
+
+    .consultants .top .knowledge{
+        width: 350px;
+        text-align: center;
+         
+    }
+    
+    .consultants .top .knowledge p{
+        color: gray;
+        font-size: 10px;
+    }
+
+    .consultants  .container .hexagon .worker-info .overall{
+        display: flex;
+        margin-top: 30px !important;
+    
+    }
+
+    .consultants  .container .hexagon .worker-info1 .overall{
+        display: flex;
+        margin-top: 30px !important;
+    
+    }
+
+
+    .consultants  .container .hexagon .worker-info1{
+        top: 400px;
+        left: 120px;
+        position: absolute;
+    
+    }
+
+    .consultants  .container .hexagon .worker-info{
+        top: 400px;
+        left: 130px;
+        position: absolute;
+    
+    }
+
+    .consultants  .container .hexagon .worker-info1 h4{
+        margin-left: 10px;
+    
+    }
+
+    
+
+}
 
  
 
