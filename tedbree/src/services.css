@@ -601,10 +601,143 @@ section .down .down-right img{
         flex-direction: column;
         align-items: center;
         padding-right:  60px !important;
-        padding-left:  5px !important;
+        padding-left:  1px !important;
        
         
     }
+
+    section .down .down-left .business .pitch h4{
+        font-size: 13px !important;
+        margin-top: 30px;
+      
+        
+    }
+
+    section .down .down-left .upper{
+        margin-right: 300px;
+      
+        
+    }
+
+    section .down .down-left .business .pitch .tag{
+        font-size: 13px !important;
+        margin-top: 30px;
+      
+        
+    }
+
+    section .down .down-left .companies h3{
+        font-size: 15px;
+        margin-right: 370px;
+        
+    }
+
+    section .down .down-left .companies .pitch2 p,a{
+        font-size: 10px;
+        
+    }
+
+    section .down .down-left .companies .pitch2 a{
+        font-size: 10px;
+        
+    }
+    section .down .down-left .companies .pitch2{
+        margin-right: 350px;
+        width: 350px;
+        
+    }
+
+
+    section .down .down-left .development .percentage{
+        width: 260px;
+        height: 20px;
+        background-color: #0ecea4;
+        padding: 5px 5px;
+        border-radius: 2px;
+        margin-right: 200px;
+      
+        
+    }
+
+    section .down .down-left .development .percentage2{
+        width: 200px;
+        height: 20px;
+        background-color: #0ecea4;
+        padding: 5px 5px;
+        border-radius: 2px;
+        margin-right: 260px;
+      
+        
+    }
+
+    section .down .down-left .development3 .percentage3{
+        width: 280px;
+        height: 20px;
+        background-color: #0ecea4;
+        padding: 5px 5px;
+        border-radius: 2px;
+        margin-right: 260px;
+      
+        
+    }
+
+    section .down .down-left .development{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 200px;
+    
+    }
+
+    section .down .down-left .development3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 15px;
+        margin-right: 150px;
+    
+    }
+
+    section .down .down-left .development .speech{
+        margin-right: 320px;
+    
+    }
+    
+
+    section .down .down-left .development .speech2{
+        margin-right: 320px;
+    
+    }
+
+    section .down .down-left .development3 .speech3{
+        margin-right: 400px;
+    
+    }
+
+    section .down .down-left{
+        background-color: white;
+        width: 889px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+        
+    }
+
+    section .down .down-right{
+        display: none;
+      
+        
+    }
+
+    section .down .down-right img{
+        display: none;
+      
+        
+    }  
+    
     
     
 
@@ -647,6 +780,11 @@ section .down .down-right img{
         padding: 5px 15px;
         
     }
+
+
+   
+
+    
 
 }
 
