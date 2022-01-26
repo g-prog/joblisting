@@ -530,7 +530,7 @@ section .down .down-right img{
         background-color: #0ecea4;
         border-radius: 50%;
         padding: 7px 5px;
-        width: 20px;
+        width: 25px;
         height: 25px;
         
     }
@@ -541,7 +541,7 @@ section .down .down-right img{
     section .up .right-side .help .inner .one p{
         color: white;
         margin-top: 0px;
-        margin-left: 6px;
+        margin-left: 8px;
         font-weight: 500;
     
         
@@ -591,7 +591,7 @@ section .down .down-right img{
     section .up .right-side{
         background-color: white;
         width: 900px;
-        height: 400px;
+        height: 450px;
         display: flex;
         flex-direction: column;
         align-items: center;
