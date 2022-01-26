@@ -614,7 +614,7 @@ section .down .down-right img{
     }
 
     section .down .down-left .upper{
-        margin-right: 300px;
+        margin-right: 350px;
       
         
     }
@@ -628,7 +628,7 @@ section .down .down-right img{
 
     section .down .down-left .companies h3{
         font-size: 15px;
-        margin-right: 370px;
+        margin-right: 420px;
         
     }
 
@@ -642,7 +642,7 @@ section .down .down-right img{
         
     }
     section .down .down-left .companies .pitch2{
-        margin-right: 350px;
+        margin-right: 400px;
         width: 350px;
         
     }
@@ -685,8 +685,7 @@ section .down .down-right img{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 20px;
-        margin-right: 200px;
+        margin-right: 250px;
     
     }
 
@@ -694,8 +693,8 @@ section .down .down-right img{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 15px;
-        margin-right: 150px;
+        margin-right: 180px;
+
     
     }
 
