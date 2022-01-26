@@ -587,6 +587,19 @@ section .down .down-right img{
     
         
     }
+
+    section .up .right-side{
+        background-color: white;
+        width: 900px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right:  60px;
+        padding-left:  5px;
+       
+        
+    }
     
     
 
