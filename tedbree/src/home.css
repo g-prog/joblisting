@@ -247,7 +247,7 @@
     .home .hero .content nav .links ul{
         display: flex;
         flex-direction: column;
-        margin-left: 4px;
+        margin-left: 200px;
          
     }
 
