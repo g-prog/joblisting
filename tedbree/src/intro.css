@@ -127,7 +127,13 @@
     }
 
     .intro .left .heading p{
-        font-size: 8px !important;
+        font-size: 11px !important;
+        
+    }
+
+    .intro .left .heading  .quote{
+        font-size: 11px !important;
+        width: 300px !important;
         
     }
 
