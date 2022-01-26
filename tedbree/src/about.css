@@ -63,3 +63,107 @@
     margin-top: 25px;
     margin-left: 5px;
 }
+
+@media only screen and (max-width: 600px){
+    .about .about-section{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+
+    .about .about-section .about-right .passion h1{
+        font-size: 13px;
+    }
+
+    .about .about-section .about-right .passion{
+        width: 400px;
+        margin-left: 50px;
+    }
+
+
+    .about .about-section .about-right .about-text p{
+        color: gray;
+        font-size: 10px;
+    }
+
+    .about .about-section .about-right .about-text {
+        width: 380px;
+        margin-left: 50px;
+    
+    }
+
+    .about .about-section .about-right .about-text .about-list li{
+        color: gray;
+        font-size: 10px !important;
+        list-style-type: none;
+    }
+
+    .about .about-section .about-right .stats .about-stats .stat-left h1{
+        color: #0ecea4;
+        font-size: 18px;
+    }
+
+    .about .about-section .about-right .stats .about-stats .stat-right p{
+        font-size: 10px;
+        margin-top: 8px;
+        margin-left: 5px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 768px){
+    .about .about-section{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+
+    .about .about-section .about-right .passion h1{
+        font-size: 13px;
+    }
+
+    .about .about-section .about-right .passion{
+        width: 400px;
+        margin-left: 50px;
+    }
+
+
+    .about .about-section .about-right .about-text p{
+        color: gray;
+        font-size: 10px;
+    }
+
+    .about .about-section .about-right .about-text {
+        width: 380px;
+        margin-left: 50px;
+    
+    }
+
+    .about .about-section .about-right .about-text .about-list li{
+        color: gray;
+        font-size: 10px !important;
+        list-style-type: none;
+    }
+
+    .about .about-section .about-right .stats .about-stats .stat-left h1{
+        color: #0ecea4;
+        font-size: 18px;
+    }
+
+    .about .about-section .about-right .stats .about-stats .stat-right p{
+        font-size: 10px;
+        margin-top: 8px;
+        margin-left: 5px;
+    }
+
+    
+
+   
+    
+}

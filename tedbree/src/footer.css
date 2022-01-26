@@ -45,3 +45,54 @@
     color: white;
     font-size: 13px;
 }
+
+
+@media only screen and (max-width: 600px){
+
+    .footer .all-footer{
+        background-color: rgb(15, 15, 80);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+
+    .footer .footer-right {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin-right: 50px;
+    }
+
+    .footer .footer-right .links{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+
+    .footer .footer-left .Aria-words{
+        width: 280px;
+    }
+
+    .footer .footer-left .Aria-words p{
+        font-size: 10px;
+    }
+
+    .footer .footer-right .links a{
+        color: white;
+        font-size: 10px;
+    }
+
+    .footer .copyright{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 70px;
+        font-size: 10px;
+    }
+
+}
