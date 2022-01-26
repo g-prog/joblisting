@@ -42,3 +42,65 @@
     font-style: italic;
     color: gray;
 }
+
+
+@media only screen and (max-width: 600px){
+    .testimonials .carousel .test .img img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    .testimonials .carousel .test .words{
+        width: 200px;
+        margin-left: 60px !important;
+        margin-top: 10px;
+    }
+
+    .testimonials h3{
+        font-size: 15px;
+    }
+
+    .testimonials .clients p{
+        text-align: center;
+        font-size: 10px;
+        color: gray;
+    }
+
+    .testimonials .clients {
+        width: 300px;
+
+    }
+
+    .testimonials .carousel .test .words p{
+        font-size: 10px;
+        font-style: italic;
+        color: gray;
+    }
+    
+
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+    .testimonials .carousel .test .img img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    .testimonials .carousel .test .words{
+        width: 300px;
+        margin-left: 30px !important;
+        margin-top: 10px;
+    }
+
+
+    
+
+    
+
+   
+}
