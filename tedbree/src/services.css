@@ -444,7 +444,7 @@ section .down .down-right img{
 
 
     .services .title .package{
-        width: 200px;
+        width: 280px;
         margin-left: 30px;
         text-align: center;
     }
@@ -497,6 +497,95 @@ section .down .down-right img{
     .services .card-container .item .offers .last .price h5{
         font-size: 13px;
 
+    }
+
+
+    section .up .right-side .help .inner .info h2{
+        color: #0ecea4;
+        font-size: 15px;
+        
+    }
+
+    section .up .right-side .growth h2{
+        font-size: 15px;
+        text-align: center;
+        width: 300px;
+        margin-left: 25px;
+        
+    }
+
+    section .up .left-side{
+        display: none;
+        
+    }
+
+    section .up .left-side img{
+        display: none;
+        
+    }
+
+
+    section .up .right-side .help .inner .one{
+        margin-top: 20px;
+        background-color: #0ecea4;
+        border-radius: 50%;
+        padding: 7px 5px;
+        width: 20px;
+        height: 25px;
+        
+    }
+
+
+
+
+    section .up .right-side .help .inner .one p{
+        color: white;
+        margin-top: 0px;
+        margin-left: 6px;
+        font-weight: 500;
+    
+        
+    }
+
+    section .up .right-side .help .inner .info .paragraph{
+        width: 250px;
+        
+    }
+
+    section .up .right-side .help .inner .info .paragraph p{
+        font-size: 8px !important;
+        
+    }
+
+    section .up .right-side .help .inner .info{
+        margin-left: 20px !important;
+        margin-right: 10px !important;
+        
+    }
+
+    section .up .right-side .help .two .number{
+        margin-top: 20px;
+        border: 2px solid black;
+        padding: 5px 5px;
+        border-radius: 50%;
+        width: 20px;
+        height: 25px;
+        
+    }
+
+    section .up .right-side .help .two .number p{
+        margin-top: 2px;
+        margin-left: 4px;
+        font-weight: 600;
+    
+        
+
+    }
+
+    section .up .right-side .help .two .letters h3{
+        font-size: 15px;
+    
+        
     }
     
     
