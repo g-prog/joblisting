@@ -510,7 +510,7 @@ section .down .down-right img{
         font-size: 15px;
         text-align: center;
         width: 300px;
-        margin-left: 25px;
+        margin-left: 35px;
         
     }
 
@@ -591,7 +591,7 @@ section .down .down-right img{
     section .up .right-side{
         background-color: white;
         width: 900px;
-        height: 300px;
+        height: 400px;
         display: flex;
         flex-direction: column;
         align-items: center;
