@@ -113,3 +113,194 @@
     color: #0ecea4;
     margin-right: 10px;
 }
+
+
+
+@media only screen and (max-width: 600px){
+    .contact .call{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 40px;
+    
+    }
+
+    .contact .call .contact-text .filling h1{
+        color: white;
+        font-size: 15px;
+    }
+
+    .contact .call .contact-text .filling{
+        width: 350px;
+    }
+
+
+    .contact .call .contact-text{
+        margin-left: 30px;
+    }
+
+    .contact .call .contact-text .few-steps{
+        width: 300px;
+    }
+    
+    .contact .call .contact-text .few-steps p{
+        color: white;
+        font-size: 10px;
+    }
+
+
+    .contact .call .contact-text .bullets li{
+        color: white;
+        font-size: 10px !important;
+        list-style-type: none;
+        margin-top: 5px;
+    }
+
+    .contact .call .contact-form  form input{
+        margin-top: 30px;
+        width: 280px;
+        height: 30px;
+        background-color: rgb(123, 123, 173);
+        color: white;
+        outline: none;
+        border: 0;
+    }
+
+    .contact .call .contact-form  form input{
+        margin-left: 100px;
+    }
+
+    .contact .call .contact-form  form select{
+        margin-top: 30px;
+        width: 280px;
+        height: 30px;
+        background-color: rgb(123, 123, 173);
+        color: white;
+        outline: none;
+        border: 0;
+        margin-left: 100px;
+    }
+
+    .contact .call .contact-form  form .checkbox input{
+        width: 10px;
+        height: 10px;
+        margin-top: 55px;
+    }
+
+    .contact .call .contact-form  form .checkbox p{
+        margin-top: 53px;
+        margin-left: 5px;
+        font-size: 10px;
+    }
+
+    .contact .call .contact-form  form button{
+        width: 280px;
+        padding: 10px 30px;
+        background-color: #0ecea4;
+        color: white;
+        font-weight: 800;
+        outline: none;
+        border: 0;
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+   
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+    .contact .call{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 40px;
+    
+    }
+
+    .contact .call .contact-text .filling h1{
+        color: white;
+        font-size: 15px;
+    }
+
+    .contact .call .contact-text .filling{
+        width: 350px;
+    }
+
+
+    .contact .call .contact-text{
+        margin-left: 30px;
+    }
+
+    .contact .call .contact-text .few-steps{
+        width: 300px;
+    }
+    
+    .contact .call .contact-text .few-steps p{
+        color: white;
+        font-size: 10px;
+    }
+
+
+    .contact .call .contact-text .bullets li{
+        color: white;
+        font-size: 10px !important;
+        list-style-type: none;
+        margin-top: 5px;
+    }
+
+    .contact .call .contact-form  form input{
+        margin-top: 30px;
+        width: 280px;
+        height: 30px;
+        background-color: rgb(123, 123, 173);
+        color: white;
+        outline: none;
+        border: 0;
+    }
+
+    .contact .call .contact-form  form input{
+        margin-left: 100px;
+    }
+
+    .contact .call .contact-form  form select{
+        margin-top: 30px;
+        width: 280px;
+        height: 30px;
+        background-color: rgb(123, 123, 173);
+        color: white;
+        outline: none;
+        border: 0;
+        margin-left: 100px;
+    }
+
+    .contact .call .contact-form  form .checkbox input{
+        width: 10px;
+        height: 10px;
+        margin-top: 55px;
+    }
+
+    .contact .call .contact-form  form .checkbox p{
+        margin-top: 53px;
+        margin-left: 5px;
+        font-size: 10px;
+    }
+
+    .contact .call .contact-form  form button{
+        width: 280px;
+        padding: 10px 30px;
+        background-color: #0ecea4;
+        color: white;
+        font-weight: 800;
+        outline: none;
+        border: 0;
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+   
+}
+
+

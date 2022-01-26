@@ -17,3 +17,26 @@
    color: white;
    font-weight: 600;
 }
+
+@media only screen and (max-width: 600px){
+    .Projectlist{
+        font-size: 9px;
+        margin-right: 5px;
+        cursor: pointer;
+        background-color: #cacad4;
+        border-radius: 5px;
+        padding: 2px 5px;
+        font-weight: 600;
+      
+        
+    
+    }
+
+    .Projectlist.active{
+        background-color: #0ecea4;
+        padding: 2px 5px;
+        color: white;
+        font-weight: 600;
+     }
+    
+}

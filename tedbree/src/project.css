@@ -47,3 +47,20 @@
    
    
 }
+
+
+@media only screen and (max-width: 600px){
+    .projects .project-images .pictures img {
+        width: 60px;
+        height: 80px;
+       
+    }
+
+
+    .projects  .project-top h1{
+        font-size: 15px;
+       
+    }
+    
+}
+
