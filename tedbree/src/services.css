@@ -611,3 +611,43 @@ section .down .down-right img{
 }
 
 
+@media only screen and (max-width: 768px){
+    .services .card-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 60px 60px;
+    }
+
+    .services .card-container .item{
+        margin-top: 20px;
+    }
+
+    section .up .right-side{
+        background-color: white;
+        width: 900px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 30px;
+
+    
+    }
+
+
+    section .up .right-side .help .two{
+        display: flex;
+        margin-top: 5px;
+    }
+
+    section .up .left-side img{
+        width: 165%;
+        height: 650px;
+        
+    }
+
+}
+
+
