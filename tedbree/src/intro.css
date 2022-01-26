@@ -110,7 +110,11 @@
     
     }
 
-    
+    .intro .left {
+        padding: 40px 40px;
+       
+        
+    }
 
     .intro .left .heading{
         width: 350px !important;
@@ -123,7 +127,7 @@
     }
 
     .intro .left .heading p{
-        font-size: 7px !important;
+        font-size: 8px !important;
         
     }
 
