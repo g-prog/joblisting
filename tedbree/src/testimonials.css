@@ -45,6 +45,9 @@
 
 
 @media only screen and (max-width: 600px){
+    .testimonials .carousel .test .words{
+        margin-top: 4px !important;
+    }
     .testimonials .carousel .test .img img{
         width: 100px;
         height: 100px;

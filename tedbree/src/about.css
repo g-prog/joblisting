@@ -135,39 +135,13 @@
         font-size: 13px;
     }
 
-    .about .about-section .about-right .passion{
-        width: 400px;
-        margin-left: 50px;
-    }
 
 
-    .about .about-section .about-right .about-text p{
-        color: gray;
-        font-size: 9px !important;
-    }
 
-    .about .about-section .about-right .about-text {
-        width: 340px;
-        margin-left: 50px;
     
-    }
 
-    .about .about-section .about-right .about-text .about-list li{
-        color: gray;
-        font-size: 9px !important;
-        list-style-type: none;
-    }
 
-    .about .about-section .about-right .stats .about-stats .stat-left h1{
-        color: #0ecea4;
-        font-size: 18px;
-    }
 
-    .about .about-section .about-right .stats .about-stats .stat-right p{
-        font-size: 10px  !important;
-        margin-top: 8px;
-        margin-left: 5px;
-    }
 
     
 
