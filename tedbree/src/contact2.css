@@ -171,6 +171,17 @@
     margin-left: 6px;
 }
 
+@media only screen and (max-width: 768px){
+    .contact2 .central{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact2 .central .contact2-form{
+        margin-left: 30px;
+    }
+}
+
 @media only screen and (max-width: 600px){
 
 

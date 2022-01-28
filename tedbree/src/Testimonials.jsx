@@ -46,7 +46,7 @@ function Testimonials() {
 
                     <div className="test">
                         <div className="img">
-                            <img src="../assets/girl.jpg" alt="picture of a girl" />
+                            <img src="../assets/girl.jpg" alt="a girl" />
                         </div>
 
                         <div className="words">

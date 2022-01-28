@@ -46,7 +46,19 @@
     font-size: 13px;
 }
 
+@media only screen and (max-width:768px){
+    .footer .all-footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .footer-left .Aria-words{
+        margin-left: 70px;
+    }
 
+    .footer .footer-left h3{
+        margin-left: 70px;
+    }
+}
 @media only screen and (max-width: 600px){
 
     .footer .all-footer{
