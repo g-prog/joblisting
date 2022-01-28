@@ -45,11 +45,11 @@ function Home() {
                     {(toggleMenu || screenWidth > 600) && (
                          <div className="links">
                              <div className="close">
-                                <HighlightOffIcon/>
+                                <HighlightOffIcon style={{fontSize: "20px"}}/>
 
                              </div>
                          <ul>
-                             <li><a href="#home">HOME</a></li>
+                             <li onClick={()=>setToggleMenu(false)}><a href="#home">HOME</a></li>
                              <li> <a href="#intro">INTRO</a></li>
                              <li> <a href="#services">SERVICES</a></li>
                              <li><a href="#contact">CALL ME</a></li>
