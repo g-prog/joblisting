@@ -136,7 +136,7 @@
 
     .about .about-section .about-right .about-text p{
         color: gray;
-        font-size: 7px !important;
+        font-size: 9px !important;
     }
 
     .about .about-section .about-right .about-text {
@@ -147,7 +147,7 @@
 
     .about .about-section .about-right .about-text .about-list li{
         color: gray;
-        font-size: 7px !important;
+        font-size: 9px !important;
         list-style-type: none;
     }
 
