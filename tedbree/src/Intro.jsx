@@ -28,7 +28,7 @@ function Intro() {
 
             <div className="right">
                 <div className="image-container">
-                    <img src="../assets/cloudy.jpg" alt="" />
+                    <img src="../assets/cloudy.jpg" alt="cloudy sea view" />
                 </div>
             </div>
            

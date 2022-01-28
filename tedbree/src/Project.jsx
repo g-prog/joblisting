@@ -101,7 +101,7 @@ function Project() {
             <div className="project-images">
             {data.map(d=>(
                  <div className="pictures">
-                    <img src={d.img} alt="" />
+                    <img src={d.img} alt="project-images" />
                 </div>
 
                 

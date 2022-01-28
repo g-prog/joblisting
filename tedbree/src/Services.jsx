@@ -17,7 +17,7 @@ function Services() {
            <div className="card-container">
                <div className="item">
                    <div className="img-container">
-                       <img src="../assets/sea.jpg" alt="" />
+                       <img src="../assets/sea.jpg" alt="beautiful green sea" />
                    </div>
                    <div className="listings">
                        <h3>Off The Ground Off the ground Off The Ground</h3>
@@ -55,7 +55,7 @@ function Services() {
                
                <div className="item">
                    <div className="img-container">
-                       <img src="../assets/beach.jpg" alt="" />
+                       <img src="../assets/beach.jpg" alt="beach" />
                    </div>
                    <div className="listings">
                        <h3>Accelerated Growth</h3>
@@ -92,7 +92,7 @@ function Services() {
 
                <div className="item">
                    <div className="img-container">
-                       <img src="../assets/green.jpg" alt="" />
+                       <img src="../assets/green.jpg" alt="great mountain view scenery" />
                    </div>
                    <div className="listings">
                        <h3>Market Domination</h3>
@@ -134,7 +134,7 @@ function Services() {
                         <div className='up'>
                             
                             <div className='left-side'>
-                                <img src='../assets/girl.jpg' alt='placeholder-img'/>
+                                <img src='../assets/girl.jpg' alt=' Gorgeous girl'/>
                             </div>
                             <div className='right-side'>
                                 <div className='growth'>

@@ -30,7 +30,7 @@ function Home() {
         <div className="home" id="home">
             <div className="hero">
                 <div className="img">
-                    <img src="../assets/tide.jpg" alt="" />
+                    <img src="../assets/tide.jpg" alt="green sea" />
 
                 </div>
                 <div className="content">

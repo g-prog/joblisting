@@ -17,7 +17,7 @@ function Consultants() {
                 <div className="container">
                  <div className="hexagon">
                     <div className="shape">
-                        <img src="../assets/red.jpg" alt="" />
+                        <img src="../assets/red.jpg" alt="gorgeous girl" />
 
                     </div>
                     <div className="worker-info1">
@@ -43,7 +43,7 @@ function Consultants() {
 
                  <div className="hexagon">
                     <div className="shape">
-                        <img src="../assets/Asian.jpg" alt="" />
+                        <img src="../assets/Asian.jpg" alt="Boy upright and smiling" />
 
                     </div>
                     <div className="worker-info">
@@ -69,7 +69,7 @@ function Consultants() {
 
                  <div className="hexagon">
                     <div className="shape">
-                        <img src="../assets/teen.jpg" alt="" />
+                        <img src="../assets/teen.jpg" alt="teen boy" />
 
                     </div>
                     <div className="worker-info">

@@ -17,7 +17,7 @@ function Testimonials() {
                 <Carousel infiniteLoop autoPlay>
                     <div className="test">
                         <div className="img">
-                            <img src="../assets/red.jpg" alt="" />
+                            <img src="../assets/red.jpg" alt="georgeous girl" />
                         </div>
 
                         <div className="words">
@@ -32,7 +32,7 @@ function Testimonials() {
 
                     <div className="test">
                         <div className="img">
-                            <img src="../assets/server.jpg" alt="" />
+                            <img src="../assets/server.jpg" alt="a girl standing close to a server" />
                         </div>
 
                         <div className="words">
@@ -46,7 +46,7 @@ function Testimonials() {
 
                     <div className="test">
                         <div className="img">
-                            <img src="../assets/girl.jpg" alt="" />
+                            <img src="../assets/girl.jpg" alt="picture of a girl" />
                         </div>
 
                         <div className="words">
