@@ -72,6 +72,11 @@
         flex-direction: column;
     }
 
+    .about .about-section .about-right h5{
+        margin-left: 50px;
+        font-size: 10px;
+    }
+
 
     .about .about-section .about-right .passion h1{
         font-size: 13px;
@@ -122,6 +127,8 @@
         justify-content: space-around;
         flex-direction: column;
     }
+
+
 
 
     .about .about-section .about-right .passion h1{

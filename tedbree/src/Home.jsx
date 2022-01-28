@@ -4,7 +4,7 @@ import "./home.css"
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import MenuIcon from '@mui/icons-material/Menu';
-import HighlightOffIcon from '@mui/icons-material/HighlightOff'
+
 
 function Home() {
     const [toggleMenu, setToggleMenu] = useState(false)
@@ -44,18 +44,14 @@ function Home() {
                     </div>
                     {(toggleMenu || screenWidth > 600) && (
                          <div className="links">
-                             <div className="close">
-                                <HighlightOffIcon style={{fontSize: "20px"}}/>
-
-                             </div>
                          <ul>
                              <li onClick={()=>setToggleMenu(false)}><a href="#home">HOME</a></li>
-                             <li> <a href="#intro">INTRO</a></li>
-                             <li> <a href="#services">SERVICES</a></li>
-                             <li><a href="#contact">CALL ME</a></li>
-                             <li><a href="#projects">PROJECTS</a></li>
-                             <li><a href="#about">ABOUT</a></li>
-                             <li><a href="#contact2">CONTACT</a></li>
+                             <li onClick={()=>setToggleMenu(false)}> <a href="#intro">INTRO</a></li>
+                             <li onClick={()=>setToggleMenu(false)}> <a href="#services">SERVICES</a></li>
+                             <li onClick={()=>setToggleMenu(false)}><a href="#contact">CALL ME</a></li>
+                             <li onClick={()=>setToggleMenu(false)}><a href="#projects">PROJECTS</a></li>
+                             <li onClick={()=>setToggleMenu(false)}><a href="#about">ABOUT</a></li>
+                             <li onClick={()=>setToggleMenu(false)}><a href="#contact2">CONTACT</a></li>
                          </ul>
  
                          <div className="social">
