@@ -4,6 +4,7 @@ import "./home.css"
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import MenuIcon from '@mui/icons-material/Menu';
+import HighlightOffIcon from '@mui/icons-material/HighlightOff'
 
 function Home() {
     const [toggleMenu, setToggleMenu] = useState(false)
@@ -43,6 +44,10 @@ function Home() {
                     </div>
                     {(toggleMenu || screenWidth > 600) && (
                          <div className="links">
+                             <div className="close">
+                                <HighlightOffIcon/>
+
+                             </div>
                          <ul>
                              <li><a href="#home">HOME</a></li>
                              <li> <a href="#intro">INTRO</a></li>

@@ -262,6 +262,10 @@
         
          
     }
+
+    .home .hero .content nav .links .close{
+        margin-left: 250px;
+    }
     
 }
 
