@@ -76,6 +76,11 @@
 
     .footer .footer-left .Aria-words{
         width: 280px;
+        margin-left: 70px;
+    }
+
+    .footer .footer-left h3{
+        margin-left: 70px;
     }
 
     .footer .footer-left .Aria-words p{
